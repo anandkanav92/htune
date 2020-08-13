@@ -1,0 +1,41 @@
+{
+  "name": "ht",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "global": "^4.3.2",
+    "react": "^16.8.6",
+    "react-alert": "^5.4.0",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.59.5",
+    "react-native-cli": "^2.0.1",
+    "react-native-elements": "^1.1.0",
+    "react-pure-modal": "^1.5.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-select": "^2.4.3",
+    "react-table": "^6.10.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "serve": "^11.0.0",
+    "styled-components": "^4.2.0",
+    "universal-cookie": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "yarn run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

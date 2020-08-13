@@ -1,0 +1,27 @@
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+img {
+  width:100%;
+}
+li {
+  padding-top:10px;
+}
+
+ol {
+  counter-reset: o-counter ;
+  list-style-type: none;
+}
+ol li:before {
+  content: '[' counter(o-counter) '] ';
+  counter-increment: o-counter;
+}
+
+.col-md-12 {
+  padding-top:10px;
+  text-align: justify;
+}
+
+
